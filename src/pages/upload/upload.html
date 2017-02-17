@@ -19,7 +19,7 @@
   <form #uploadForm="ngForm" (ngSubmit)="upload(uploadForm.value, $event)">
     <p>
       <ion-label>File:</ion-label>
-      <input accept="image/*" capture type="file" name="file"  ngModel>
+      <input type="file" name="file"  ngModel>
     </p>
     <ion-item>
       <ion-label>Title:</ion-label>
